@@ -5,7 +5,7 @@ Welcome to my Neocities backup! This backup helps me to publish the website else
 
 
 
-Website: https://alexisgaming95.neocities.com
+Website: https://alexisgaming95.neocities.org
 
 
 
