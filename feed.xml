@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+                  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+                  xmlns:atom="http://www.w3.org/2005/Atom"
+                  xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>Alexis Gaming Reviews</title>
+  <link>https://alexisgaming95.neocities.org</link>
+  <description>Retro gaming. Tech. Music. Fun. Here's what I call my wall of thoughts. Have Fun!</description>
+  <image>
+    <title>Alexis Gaming Reviews</title>
+    <link>https://alexisgaming95.neocities.org</link>
+    <url>https://alexisgaming95.neocities.org/images/logo.png</url>
+    <width>100</width>
+    <height>100</height>
+  </image>
+  <language>en-us</language>
+  <atom:link href="https://alexisgaming95.neocities.org/feed.xml" rel="self" type="application/rss+xml" /> 
+  <item>
+    <title>My Rant about soydevs</title>
+    <link>https://alexisgaming95.neocities.org/rant.htm</link>
+    <guid>https://alexisgaming95.neocities.org/rant.htm</guid>
+    <pubDate>Sun, 20 Mar 2022 04:53:00 +0800</pubDate>
+    <media:thumbnail url="https://alexisgaming95.neocities.org/images/rant_thumb.png" />
+    <description>
+    <![CDATA[<p>My rant about soydevs ruin the modern internet landscape and technology in general. I also included a tip on how to be a based Linux user.</p>]]>
+    </description>
+    <author>lucas0021a@outlook.com (Alexis Jhon Gaspar)</author>
+      <content:encoded><![CDATA[<p>So I was pretty much talking on the Nobel Tech server, and talked about Linux. We talked about why big tech messes up the modern world.</p>
+      
+      <p>Then I thought, why does multiple websites loads slower like WordPress and stuff?</p>
+      
+      <p>It actually turns out it was bloat.</p>
+      
+      <p>To define bloat, <strong>bloat</strong> is something unnecessary that the user didn't want. For example those pre installed apps your laptop manufacturer installed in your laptop.</p>
+      
+      <p>"But why do you talk about bloat?" you might asked, well, in the modern times, you can see websites with chock-full of unnecessary scripts and shit for a simple block of text. Lemme explain.</p>
+      
+      <p>If you have a decent internet connection and you find out that your website you want to see was unusually loading for minutes, might be those unnecessary scripts.</p>
+      
+      <p>For example, if you looked up a quote of your favorite show, you might notice why the content loads slower than expected. You only need that one quote to post on the bird app or in the metashit.</p>
+      
+      <p>I gonna introduce you to soydevs, the people who behind the abomination. These soy milk drinking Silicon Valley developers usually code stuff in an unoptimized manner.</p>
+      
+      <p>They oftentimes smash bunch of numbers and letters and expect them to work. If it was working, they didn't bother optimizing the code. They usually used Javascript, the worst language the humankind came up with.</p>
+    
+      <p>Now, you might ask "Why you hate JS? You can actually make a game in that!" Well simple. It makes things slower to load. For example, this HTML file is just probably in a few kilobytes, most browsers can load this in under a second. But if I was your stereotypical soydev, you might be able to see this in few minutes.</p>
+      
+      <p>Another culprit of this cesspool was Microsoft. They literally added advertisements inside Windows 11. Windows 10 is hella slow for hard drives, but I don't remember an average desktop computer having a solid state drive in 2015! The ads for Spotify, Candy Crush and doh! Microsoft services! They beg and beg to sell your fucking soul to them and use Microsoft Edge over and over again!</p>
+      
+      <p>Hey soydevs, do you know about RSS? HTML5? EVEN FUCKING CSS?? You can like theme a website with HTML and CSS, like this one! Heck you don't need to learn Javascript to make a website! You might say this website is awfully ancient but 90s web design have more personality than the fucking Microsoft website! Like look at it. Too flat, too corporate, unlike early amateur web design, full of GIFs and buttons, web rings and too much eyecandy, you might ask for a doctor about "eye diabetes"!</p>
+      
+      
+      <p>Man, I never talked about Electron did I? Electron is the worst web platform I've heard. period. </p>
+      
+      <p>If you want to make a website, learn HTML and CSS, one day you will be good enough. Find a domain name, find if self hosting is worth it, and most importantly, don't use Javascript. Ever. Even a year before the sun dies. </p>
+      
+      
+      <p>Oh, I forgot about people using Ubuntu or Manjar<strong>NO</strong>, please switch to either Arch, Void or Gentoo. I would recommend Void too.</p>
+
+      <p>Please stop using g<strong>NO</strong>me. Use suckless software like <strong>dwm</strong> and <strong>st</strong>. <strong>dwm</strong> is literally the quintessential window manager. It's lite, minimalist and you can customize it. All you need is some knowledge of how to patch suckless software and you can add things like transparency or gaps. You can add a start menu style program called <strong>dmenu</strong>, but I recommend building from source as packages in your favorite package manager can be outdated. If you want to have a machine that suck less, you might want to ditch bash and switch to <strong>zsh</strong>, and ditch sudo for <strong>doas</strong>. That's all my ranting. See you next time!</p>]]></content:encoded>
+  </item>
+  <item>
+   <title>Why I think RSS is based</title>
+   <link>https://alexisgaming95.neocities.org/rss.htm</link>
+   <guid>https://alexisgaming95.neocities.org/rss.htm</guid>
+   <pubDate>Thu, 31 Mar 2022 19:13:00 +0800</pubDate>
+    <media:thumbnail url="https://alexisgaming95.neocities.org/images/rss_thumb.png" />
+   <description>
+   <![CDATA[<p>My thoughts about RSS and why it's still verstile for delivering content even to this day.</p>]]>
+   </description>
+   <author>lucas0021a@outlook.com (Alexis Jhon Gaspar)</author>
+   <content:encoded><![CDATA[<p>So if been alive not long enough, you might see those wifi looking things in an orange square. That's RSS.</p>
+
+     <p>That's right folks, we're talking about RSS feeds.</p>
+
+     <p>Here's a brief summary of RSS: RSS was created in 1999 after failed attempts for web syndication back then. At first it didn't get much traction, but when the new millennium turned, RSS started gaining traction. Famous outlets and websites started RSS feeds, that icon was everywhere you looked.</p>
+
+     <p>The format became more prevalent in around 2005 to 2007. Every website and blogs have RSS feeds as a way to deliver content to people. As YouTube, Facebook and other social media platforms became prevalent, the art of RSS became obscured.</p>
+
+     <p>Now, talking about RSS in this day and age was like talking about what happened to the dinosaurs, but unlike dinosaurs, they still exists, just hidden like Luigi.</p>
+
+     <p>You can still access RSS feeds today, for example this website or TechCrunch or GMA News. Heck The New York Times still have RSS feeds.</p>
+
+     <p>Now you might say, why do you talk about RSS feeds, where you can access content in Twitter? Well, simply, it's much better. </p>
+
+     <p>Yes, it does have a disadvantage of having a separate RSS reader but the advantages outweigh the disadvantages. First up, you can read stuff without ads floating around or soul being sold to Google and Meta. For example, I can still access Twitter feeds without the harassment. I also read a news article without the 90% of Javascript. Heck it's basically better to distribute podcasts here than waiting it for release in Spotify.</p>
+
+     <p>RSS is just better than looking for Twitter about blog posts and such. You can add your favorite websites to a RSS reader.</p>
+
+     <p>If you find scrolling into Twitter, looking for a new blog post and don't want to bother with Javascript, you can access it by going to a RSS feed, unless if the author doesn't maintain it anymore.</p>
+
+     <p>Accessing RSS feeds will also help people with a slow connection as they can also access content without the hassle of loading a full Javascript site and waiting for minutes.</p>
+
+     <p>You could also access podcasts too in RSS feeds! This format is too versatile for accessing content to the masses, although I'm not sure about how to access it in this day and age of social media and surveillance capitalism.</p>
+
+     <p>I honestly recommend using it because it's a good way to access content from your favorite websites. Now, you might ask, "How about looking at my favorite celebrity's Twitter feed? How about YouTube videos?", well it's simple, take a look:</p>
+
+     <p>If you want to access Twitter feeds via RSS, you can use <code>https://nitter.net/username/rss</code>.</p>
+
+     <p>For example, you want to access content from your favorite WordPress website, you can do it by adding <code>/feed</code> in the end of the website URL.</p>
+
+     <p>If you want checking out your favorite subreddit, you can use <code>https://reddit.com/r/subreddit/rss.xml</code></p>
+
+     <p>For people who want to see the latest Scott the Woz episode or a new video on YouTube, you can use <code>https://youtube.com/feeds/videos.xml?channel_id=channel_id</code>. You must use the channel ID of the channel itself. Searx for a channel ID grabber so you can add it.</p>
+
+     <p>You might ask how to do it, it's pretty simple actually. You need some basic understanding about HTML text formatting and XML. You can get a generator but I recommend making it yourself.</p>
+
+     <p>As for reading feeds, you can use Newsboat for Linux. This RSS reader is based on vim (based text editor) and can access feeds easily without the hassle of installing a window manager.</p>
+
+     <p>As for alternative to RSS, well there's Atom. Atom and RSS are somehow related because they both use XML but they are different platforms.</p>
+
+     <p>I might add an Atom feed soon so expect to see it later. See you!</p>]]>
+     </content:encoded>
+  </item>
+</channel>
+</rss>
