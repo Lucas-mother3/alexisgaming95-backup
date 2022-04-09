@@ -28,3 +28,9 @@ adding sidebar buttons.
   * Cloned the repo to GitLab
   * Added "Projects" page
   * Added a new RSS feed
+
+* April 10th, 202
+  * Added RSS 1.0 and Atom feeds
+  * Added theme colors
+  * Added Mobile mode
+  * Added line wrap on the Text mode
