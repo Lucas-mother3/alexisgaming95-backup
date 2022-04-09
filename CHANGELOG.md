@@ -29,7 +29,7 @@ adding sidebar buttons.
   * Added "Projects" page
   * Added a new RSS feed
 
-* April 10th, 202
+* April 10th, 2022
   * Added RSS 1.0 and Atom feeds
   * Added theme colors
   * Added Mobile mode
