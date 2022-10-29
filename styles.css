@@ -1,0 +1,328 @@
+/* Alexis Gaming Reviews Classic Stylesheet
+
+Updated 2022-05-05
+*/
+body{
+/* Cursors */
+cursor: url("/cursors/arrow.png"), default;
+cursor: url("/cursors/arrow.png"), auto;
+/* Styling for body */
+background-color: #ffc;
+color: #009;
+font-family: Arial, Helvetica;
+background-image: url("_themes/pstmdrn/postextb.jpg"); 
+}
+/* Firefox scrollbars (For Firefox, Librewolf, etc.) */
+html{
+overflow-y: scroll;
+scrollbar-color: #ffc #bcbcbc;
+scrollbar-width: auto;
+/* Internet Explorer scrollbars (From 5.5 till 11) */
+scrollbar-face-color: #ffc;
+scrollbar-arrow-color: #000;
+scrollbar-track-color: #bcbcbc;
+scrollbar-shadow-color: #cc7;
+scrollbar-highlight-color: #fff;
+scrollbar-3dlight-color: #ffc;
+scrollbar-darkshadow-color: #aa5;
+}
+/* Cursors (addendum) */
+a {
+cursor: url("/cursors/hand.png"), pointer;
+}
+p {
+cursor: url("/cursors/beam.png"), text;
+}
+/* Webkit scrollbars (For Edge Chromium Based, Chrome, Safari, etc) */
+/* Source: https://github.com/ticky/classic-scrollbars */
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-button:end {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #dedede;
+  box-shadow: 1px 1px 0 #ffffff inset,
+    -1px -1px 0 #bcbcbc inset;
+}
+::-webkit-scrollbar-button:end:vertical {
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+::-webkit-scrollbar-button:end:vertical:decrement {
+  background: 
+    linear-gradient(
+      transparent 75%, black 75%
+    )
+    center center / 8px 4px
+    no-repeat,
+    linear-gradient(
+      transparent 50%, black 50%
+    )
+    center center / 6px 4px
+    no-repeat,
+    linear-gradient(
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      black 50%, black 50%
+    )
+    center center / 2px 4px
+    no-repeat,
+    #dedede;
+}
+::-webkit-scrollbar-button:end:vertical:increment {
+  background: 
+    linear-gradient(
+      to top,
+      transparent 75%, black 75%
+    )
+    center center / 8px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 50%, black 50%
+    )
+    center center / 6px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      black 50%, black 50%
+    )
+    center center / 2px 4px
+    no-repeat,
+    #dedede;
+  height: 15px;
+  border-bottom: none;
+}
+::-webkit-scrollbar-button:end:horizontal {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+::-webkit-scrollbar-button:end:horizontal:decrement {
+  background: 
+    linear-gradient(
+      to right,
+      transparent 75%, black 75%
+    )
+    center center / 4px 8px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 50%, black 50%
+    )
+    center center / 4px 6px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to right,
+      black 50%, black 50%
+    )
+    center center / 4px 2px
+    no-repeat,
+    #dedede;
+}
+::-webkit-scrollbar-button:end:horizontal:increment {
+  background: 
+    linear-gradient(
+      to left,
+      transparent 75%, black 75%
+    )
+    center center / 4px 8px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 50%, black 50%
+    )
+    center center / 4px 6px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to left,
+      black 50%, black 50%
+    )
+    center center / 4px 2px
+    no-repeat,
+    #dedede;
+  width: 15px;
+  border-right: none;
+}
+::-webkit-scrollbar-track {
+  background-color: #aaaaab;
+  border: 1px solid #000000;
+}
+::-webkit-scrollbar-track:vertical {
+  box-shadow: 1px 1px 0 #787877 inset,
+    -1px 2px 0 #cdcccd inset,
+    2px 0 0 #888889 inset,
+    -2px 0 0 #bcbcbc inset;
+}
+::-webkit-scrollbar-track:horizontal {
+  box-shadow: 1px 1px 0 #787877 inset,
+    2px -1px 0 #cdcccd inset,
+    0 2px 0 #888889 inset,
+    0 -2px 0 #bcbcbc inset;
+}
+::-webkit-scrollbar-thumb {
+  box-shadow: 1px 1px 0px #fff inset,
+    -1px -1px 0px #cc7 inset;
+  width: 14px;
+  border: 1px solid #000000;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background: 
+    linear-gradient(
+      transparent 12.5%, #cc7 12.5%,
+      #cc7 25%, transparent 25%,
+      transparent 37.5%, #cc7 37.5%,
+      #cc7 50%, transparent 50%,
+      transparent 62.5%, #cc7 62.5%,
+      #cc7 75%, transparent 75%,
+      transparent 87.5%, #cc7 87.5%
+    )
+    center center / 7px 8px
+    no-repeat,
+    linear-gradient(
+      #ee9 12.5%, transparent 12.5%,
+      transparent 25%, #ee9 25%,
+      #ee9 37.5%, transparent 37.5%,
+      transparent 50%, #ee9 50%,
+      #ee9 62.5%, transparent 62.5%,
+      transparent 75%, #ee9 75%,
+      #ee9 87.5%, transparent 87.5%
+    )
+    49% center / 7px 8px
+    no-repeat,
+    #ffc;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: 
+    linear-gradient(
+      to right,
+      transparent 12.5%, #cc7 12.5%,
+      #cc7 25%, transparent 25%,
+      transparent 37.5%, #cc7 37.5%,
+      #cc7 50%, transparent 50%,
+      transparent 62.5%, #cc7 62.5%,
+      #cc7 75%, transparent 75%,
+      transparent 87.5%, #cc7 87.5%
+    )
+    center center / 8px 7px
+    no-repeat,
+    linear-gradient(
+      to right,
+      #ee9 12.5%, transparent 12.5%,
+      transparent 25%, #ee9 25%,
+      #ee9 37.5%, transparent 37.5%,
+      transparent 50%, #ee9 50%,
+      #ee9 62.5%, transparent 62.5%,
+      transparent 75%, #ee9 75%,
+      #ee9 87.5%, transparent 87.5%
+    )
+    center 49% / 8px 7px
+    no-repeat,
+    #ffc;
+}
+::-webkit-scrollbar-corner {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  box-shadow: 1px 1px 0 #ffffff inset;
+  background: #cdcccd;
+ }
+ /* General Styling */
+.mstheme-topbar-font {
+	font-family: Arial, Helvetica;
+	color: #000;
+}
+ a:link {
+	color: #360; 
+}
+a:visited {
+	color: #696; 
+} 
+a:active {
+	color: #f93;
+}
+table, tr {
+	border-color: #9999ff;
+}
+h1 {
+	color: #006;
+	font-family: Arial, Helvetica;
+}
+h2 {
+	color: #669; 
+  font-family: Arial, Helvetica;
+}
+h3 {
+	color: #993;
+	font-family: Arial, Helvetica;
+}
+h4 {
+	color: #006;
+	font-family: Arial, Helvetica;
+}
+h5 {
+	color: #669;
+	font-family: Arial, Helvetica;
+}
+/* Ah! You found me again! */
+h6 {
+	color: #993;
+	font-family: Arial, Helvetica;
+}
+@keyframes animate{
+  0%{ 
+    cursor: url("/cursors/busy1.png"), wait;
+  }
+  25%{ 
+    cursor: url("/cursors/busy2.png"), wait;
+  }
+  50%{ 
+    cursor: url("/cursors/busy3.png"), wait;
+  }
+  75%{ 
+    cursor: url("/cursors/busy4.png"), wait;
+  }
+  100%{ 
+    cursor: url("/cursors/busy1.png"), wait;
+  }
+}
+@keyframes animate{
+  0%{ 
+    cursor: url("/cursors/background1.png"), progress;
+  }
+  25%{ 
+    cursor: url("/cursors/background2.png"), progress;
+  }
+  50%{ 
+    cursor: url("/cursors/background3.png"), progress;
+  }
+  75%{ 
+    cursor: url("/cursors/background4.png"), progress;
+  }
+  100%{ 
+    cursor: url("/cursors/background1.png"), progress;
+  }
+}

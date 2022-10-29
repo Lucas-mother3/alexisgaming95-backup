@@ -1,0 +1,87 @@
+
+.mstheme
+{
+	separator-image: url(poshorsd.gif);
+	list-image-1: url(posbul1d.gif);
+	list-image-2: url(posbul2d.gif);
+	list-image-3: url(posbul3d.gif);
+
+	nav-banner-image: url(posbannd.gif);
+
+	navbutton-horiz-normal: url(poshbudd.gif);
+	navbutton-horiz-pushed: url(poshbusd.gif);
+
+	navbutton-vert-normal: url(posvbudd.gif);
+	navbutton-vert-pushed: url(posvbusd.gif);
+
+	navbutton-home-normal: url(poshombd.gif);
+
+	navbutton-next-normal: url(posnexbd.gif);
+
+	navbutton-prev-normal: url(posprebd.gif);
+
+	navbutton-up-normal: url(posupbd.gif);
+
+}
+
+.mstheme-bannertxt
+{
+	font-family: Arial, Helvetica;
+	color: rgb(102,102,153);
+	text-align: center;
+	vertical-align: middle;
+}
+.mstheme-horiz-navtxt
+{
+	font-family: Arial, Helvetica;
+	font-weight: bold;
+	color: rgb(0,0,0);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-vert-navtxt
+{
+	font-family: Arial, Helvetica;
+	font-weight: bold;
+	color: rgb(0,0,0);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxthome
+{
+	font-family: Arial, Helvetica;
+
+	color: rgb(0,0,0);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtnext
+{
+	font-family: Arial, Helvetica;
+
+	color: rgb(0,0,0);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtprev
+{
+	font-family: Arial, Helvetica;
+
+	color: rgb(0,0,0);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtup
+{
+	font-family: Arial, Helvetica;
+
+	color: rgb(0,0,0);
+	text-align: center;
+	vertical-align: middle;
+}
+

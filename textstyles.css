@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Terminus (TTF)';
+    src: url('styles/TerminusTTF-Italic.eot');
+    src: url('styles/TerminusTTF-Italic.eot?#iefix') format('embedded-opentype'),
+        url('styles/TerminusTTF-Italic.woff2') format('woff2'),
+        url('styles/TerminusTTF-Italic.woff') format('woff'),
+        url('styles/TerminusTTF-Italic.ttf') format('truetype'),
+        url('styles/TerminusTTF-Italic.svg#TerminusTTF-Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Terminus (TTF)';
+    src: url('styles/TerminusTTF.eot');
+    src: url('styles/TerminusTTF.eot?#iefix') format('embedded-opentype'),
+        url('styles/TerminusTTF.woff2') format('woff2'),
+        url('styles/TerminusTTF.woff') format('woff'),
+        url('styles/TerminusTTF.ttf') format('truetype'),
+        url('styles/TerminusTTF.svg#TerminusTTF') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Terminus (TTF)';
+    src: url('styles/TerminusTTF-Bold.eot');
+    src: url('styles/TerminusTTF-Bold.eot?#iefix') format('embedded-opentype'),
+        url('styles/TerminusTTF-Bold.woff2') format('woff2'),
+        url('styles/TerminusTTF-Bold.woff') format('woff'),
+        url('styles/TerminusTTF-Bold.ttf') format('truetype'),
+        url('styles/TerminusTTF-Bold.svg#TerminusTTF-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Terminus (TTF)';
+    src: url('styles/TerminusTTF-BoldItalic.eot');
+    src: url('styles/TerminusTTF-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('styles/TerminusTTF-BoldItalic.woff2') format('woff2'),
+        url('styles/TerminusTTF-BoldItalic.woff') format('woff'),
+        url('styles/TerminusTTF-BoldItalic.ttf') format('truetype'),
+        url('styles/TerminusTTF-BoldItalic.svg#TerminusTTF-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+body {
+  background-color:#000;
+  color:#0f0;
+} 
+html{
+  overflow-y: scroll;
+scrollbar-color: #0f0 #000;
+scrollbar-width: thin;
+scrollbar-face-color: #0f0;
+scrollbar-arrow-color: #0f0;
+scrollbar-track-color: #000;
+scrollbar-shadow-color: #000;
+scrollbar-highlight-color: #0f0;
+scrollbar-3dlight-color: #0f0;
+scrollbar-darkshadow-color: #000;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #0f0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0d0;
+}
+html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+  font-family: 'Terminus (TTF)';
+  cursor: url("/cursors/terminal.png");
+}
+a:link {
+  color: #0f0;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #080;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0b0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #040;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  
