@@ -34,3 +34,15 @@ adding sidebar buttons.
   * Added theme colors
   * Added Mobile mode
   * Added line wrap on the Text mode
+
+* May-August 2022
+
+  * General housekeeping
+  * I lost track of the backups
+
+* August 28th, 2022
+  * New blog post
+
+* October 26th, 2022
+  * New homepage
+  * New backup for months
