@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+                  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+                  xmlns:atom="http://www.w3.org/2005/Atom"
+                  xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>Alexis Gaming Reviews</title>
+  <link>https://alexisgaming95.neocities.org</link>
+  <description>Retro gaming. Tech. Music. Fun. Here's what I call my wall of thoughts. Have Fun!</description>
+  <image>
+    <title>Alexis Gaming Reviews</title>
+    <link>https://alexisgaming95.neocities.org</link>
+    <url>https://alexisgaming95.neocities.org/images/logo.png</url>
+    <width>100</width>
+    <height>100</height>
+  </image>
+  <language>en-us</language>
+  <atom:link href="https://alexisgaming95.neocities.org/feed.xml" rel="self" type="application/rss+xml" /> 
+  <item>
+    <title>My Rant about soydevs</title>
+    <link>https://alexisgaming95.neocities.org/rant.htm</link>
+    <guid>https://alexisgaming95.neocities.org/rant.htm</guid>
+    <pubDate>Sun, 20 Mar 2022 04:53:00 +0800</pubDate>
+    <media:thumbnail url="https://alexisgaming95.neocities.org/images/rant_thumb.png" />
+    <description>
+    <![CDATA[<p>My rant about soydevs ruin the modern internet landscape and technology in general. I also included a tip on how to be a based Linux user.</p>]]>
+    </description>
+    <author>lucas0021a@outlook.com (Alexis Jhon Gaspar)</author>
+      <content:encoded><![CDATA[<p>So I was pretty much talking on the Nobel Tech server, and talked about Linux. We talked about why big tech messes up the modern world.</p>
+      
+      <p>Then I thought, why does multiple websites loads slower like WordPress and stuff?</p>
+      
+      <p>It actually turns out it was bloat.</p>
+      
+      <p>To define bloat, <strong>bloat</strong> is something unnecessary that the user didn't want. For example those pre installed apps your laptop manufacturer installed in your laptop.</p>
+      
+      <p>"But why do you talk about bloat?" you might asked, well, in the modern times, you can see websites with chock-full of unnecessary scripts and shit for a simple block of text. Lemme explain.</p>
+      
+      <p>If you have a decent internet connection and you find out that your website you want to see was unusually loading for minutes, might be those unnecessary scripts.</p>
+      
+      <p>For example, if you looked up a quote of your favorite show, you might notice why the content loads slower than expected. You only need that one quote to post on the bird app or in the metashit.</p>
+      
+      <p>I gonna introduce you to soydevs, the people who behind the abomination. These soy milk drinking Silicon Valley developers usually code stuff in an unoptimized manner.</p>
+      
+      <p>They oftentimes smash bunch of numbers and letters and expect them to work. If it was working, they didn't bother optimizing the code. They usually used Javascript, the worst language the humankind came up with.</p>
+    
+      <p>Now, you might ask "Why you hate JS? You can actually make a game in that!" Well simple. It makes things slower to load. For example, this HTML file is just probably in a few kilobytes, most browsers can load this in under a second. But if I was your stereotypical soydev, you might be able to see this in few minutes.</p>
+      
+      <p>Another culprit of this cesspool was Microsoft. They literally added advertisements inside Windows 11. Windows 10 is hella slow for hard drives, but I don't remember an average desktop computer having a solid state drive in 2015! The ads for Spotify, Candy Crush and doh! Microsoft services! They beg and beg to sell your fucking soul to them and use Microsoft Edge over and over again!</p>
+      
+      <p>Hey soydevs, do you know about RSS? HTML5? EVEN FUCKING CSS?? You can like theme a website with HTML and CSS, like this one! Heck you don't need to learn Javascript to make a website! You might say this website is awfully ancient but 90s web design have more personality than the fucking Microsoft website! Like look at it. Too flat, too corporate, unlike early amateur web design, full of GIFs and buttons, web rings and too much eyecandy, you might ask for a doctor about "eye diabetes"!</p>
+      
+      
+      <p>Man, I never talked about Electron did I? Electron is the worst web platform I've heard. period. </p>
+      
+      <p>If you want to make a website, learn HTML and CSS, one day you will be good enough. Find a domain name, find if self hosting is worth it, and most importantly, don't use Javascript. Ever. Even a year before the sun dies. </p>
+      
+      
+      <p>Oh, I forgot about people using Ubuntu or Manjar<strong>NO</strong>, please switch to either Arch, Void or Gentoo. I would recommend Void too.</p>
+
+      <p>Please stop using g<strong>NO</strong>me. Use suckless software like <strong>dwm</strong> and <strong>st</strong>. <strong>dwm</strong> is literally the quintessential window manager. It's lite, minimalist and you can customize it. All you need is some knowledge of how to patch suckless software and you can add things like transparency or gaps. You can add a start menu style program called <strong>dmenu</strong>, but I recommend building from source as packages in your favorite package manager can be outdated. If you want to have a machine that suck less, you might want to ditch bash and switch to <strong>zsh</strong>, and ditch sudo for <strong>doas</strong>. That's all my ranting. See you next time!</p>]]></content:encoded>
+  </item>
+  <item>
+   <title>Why I think RSS is based</title>
+   <link>https://alexisgaming95.neocities.org/rss.htm</link>
+   <guid>https://alexisgaming95.neocities.org/rss.htm</guid>
+   <pubDate>Thu, 31 Mar 2022 19:13:00 +0800</pubDate>
+    <media:thumbnail url="https://alexisgaming95.neocities.org/images/rss_thumb.png" />
+   <description>
+   <![CDATA[<p>My thoughts about RSS and why it's still verstile for delivering content even to this day.</p>]]>
+   </description>
+   <author>lucas0021a@outlook.com (Alexis Jhon Gaspar)</author>
+   <content:encoded><![CDATA[<p>So if been alive not long enough, you might see those wifi looking things in an orange square. That's RSS.</p>
+
+     <p>That's right folks, we're talking about RSS feeds.</p>
+
+     <p>Here's a brief summary of RSS: RSS was created in 1999 after failed attempts for web syndication back then. At first it didn't get much traction, but when the new millennium turned, RSS started gaining traction. Famous outlets and websites started RSS feeds, that icon was everywhere you looked.</p>
+
+     <p>The format became more prevalent in around 2005 to 2007. Every website and blogs have RSS feeds as a way to deliver content to people. As YouTube, Facebook and other social media platforms became prevalent, the art of RSS became obscured.</p>
+
+     <p>Now, talking about RSS in this day and age was like talking about what happened to the dinosaurs, but unlike dinosaurs, they still exists, just hidden like Luigi.</p>
+
+     <p>You can still access RSS feeds today, for example this website or TechCrunch or GMA News. Heck The New York Times still have RSS feeds.</p>
+
+     <p>Now you might say, why do you talk about RSS feeds, where you can access content in Twitter? Well, simply, it's much better. </p>
+
+     <p>Yes, it does have a disadvantage of having a separate RSS reader but the advantages outweigh the disadvantages. First up, you can read stuff without ads floating around or soul being sold to Google and Meta. For example, I can still access Twitter feeds without the harassment. I also read a news article without the 90% of Javascript. Heck it's basically better to distribute podcasts here than waiting it for release in Spotify.</p>
+
+     <p>RSS is just better than looking for Twitter about blog posts and such. You can add your favorite websites to a RSS reader.</p>
+
+     <p>If you find scrolling into Twitter, looking for a new blog post and don't want to bother with Javascript, you can access it by going to a RSS feed, unless if the author doesn't maintain it anymore.</p>
+
+     <p>Accessing RSS feeds will also help people with a slow connection as they can also access content without the hassle of loading a full Javascript site and waiting for minutes.</p>
+
+     <p>You could also access podcasts too in RSS feeds! This format is too versatile for accessing content to the masses, although I'm not sure about how to access it in this day and age of social media and surveillance capitalism.</p>
+
+     <p>I honestly recommend using it because it's a good way to access content from your favorite websites. Now, you might ask, "How about looking at my favorite celebrity's Twitter feed? How about YouTube videos?", well it's simple, take a look:</p>
+
+     <p>If you want to access Twitter feeds via RSS, you can use <code>https://nitter.net/username/rss</code>.</p>
+
+     <p>For example, you want to access content from your favorite WordPress website, you can do it by adding <code>/feed</code> in the end of the website URL.</p>
+
+     <p>If you want checking out your favorite subreddit, you can use <code>https://reddit.com/r/subreddit/rss.xml</code></p>
+
+     <p>For people who want to see the latest Scott the Woz episode or a new video on YouTube, you can use <code>https://youtube.com/feeds/videos.xml?channel_id=channel_id</code>. You must use the channel ID of the channel itself. Searx for a channel ID grabber so you can add it.</p>
+
+     <p>You might ask how to do it, it's pretty simple actually. You need some basic understanding about HTML text formatting and XML. You can get a generator but I recommend making it yourself.</p>
+
+     <p>As for reading feeds, you can use Newsboat for Linux. This RSS reader is based on vim (based text editor) and can access feeds easily without the hassle of installing a window manager.</p>
+
+     <p>As for alternative to RSS, well there's Atom. Atom and RSS are somehow related because they both use XML but they are different platforms.</p>
+
+     <p>I might add an Atom feed soon so expect to see it later. See you!</p>]]>
+     </content:encoded>
+  </item>
+  <item>
+   <title>Modern Internet is shit</title>
+   <link>https://alexisgaming95.neocities.org/internet.htm</link>
+   <guid>https://alexisgaming95.neocities.org/internet.htm</guid>
+   <pubDate>Sat, 16 Apr 2022 22:53:00 +0800</pubDate>
+    <media:thumbnail url="https://alexisgaming95.neocities.org/images/internet_thumb.png" />
+   <description>
+   <![CDATA[My thoughts about why the internet evolves backwards. Web3, Hidden surveillance, Cryptocurrencies are one of these that make Internet shit. But you can change it after reading the article.]]>
+   </description>
+   <author>lucas0021a@outlook.com (Alexis Jhon Gaspar)</author>
+   <content:encoded><![CDATA[	<p>The internet landscape nowadays is rapidly evolves everyday, like making newspaper articles. In the past century, we made amazing feats like flying or landing in the moon. You might consider the counterculture revolution to be influencial. But none of those compared to the World Wide Web or the Web in shorter terms.</p>
+
+  <p>So a bit of history here, but here&#39;s a story on how was web created. It all starts in mid to late 1980s where software makes hyperlinks to certain things like help or documentation. One day, Sir Tim-Berners Lee was researching something. He was creating the first web server. Then in 1989, he actually made a HTTP server to connect to a client. Months followed and he laid the groundwork of what the Web would essentially become. In 1990, he created WorldWideWeb for NextSTEP (later renamed to Nexus to avoid confusion with the Web itself), which is the first ever browser, server program and a WYSIWYG HTML editor. Later, with an assist from an intern, they made Line Mode Browser. It was included into libwww, which gave foundations to other browsers to come. One of them is Lynx, as it is the oldest browser to still be maintained, and one of the popular text browsers. </p>
+
+  <p>The next step of the creation and sparking the WWW boom. Some guys at NCSA were seeing VoilaWWW, one of early browsers. Then two guys was interested into making something like it, so they made Mosaic. It was originally for the X Window System for Unix based systems but later ported to Mac OS and Windows. One of the creators left NCSA, asked some guy at Silicon Graphics, and four University students to make Netscape Navigator (originally called Mosaic, then Mosaic Netscape then simply Netscape after some treats from NCSA because they were using the Mosaic name), which is the intial foundation of Mozilla Firefox. The Mosaic browser was also licensed to Microsoft via Spyglass (which is more like a reseller), which became Internet Explorer. The rest is history.</p>
+
+  <p>Now back to the current times. The Web, just like I said before is constantly evolving every single day. More websites being created, more buying domains, more hosting their own website. This rapid evolution wasn&#39;t like having no consquences, no no no.</p>
+
+  <p>I&#39;m introducing to you three things: hidden surveilance, Web3 and crypto, and what is Yesterweb.</p>
+
+  <h4 id="hidden-surveilance">Hidden surveilance</h4>
+
+  <p>Now, you might think, wait a minute, what do you mean in hidden surveilance?</p>
+
+  <p>Hidden surveilance in this context, is sneaky trackers hidden in cookies or the website itseof to gather more data from you, essentially making an almost complete profile of you. Your age, sexuality, interests, everything. The main bad guys of this was Google and Facebook (now called Meta). Google might be popular but the main source of it&#39;s revenue was Google Ads. Ads in todays world, is like an overattractive girlfiend, following your steps like what are doing, what purchases do you made, what searches do you made, what videos do watch etc. Facebook on the other hand is a social media platform as we know it, but nowadays it&#39;s more like a flytrap. You browse your Facebook feed, you might see ads for something they thinks you want.</p>
+
+  <p>Here&#39;s an example: You chatted your friend, asking about buying a SNES. Later on, you saw ads on Facebook for a SNES, and related stuff. Scary right? The problem is, that companies make it vague about their belief on your privacy, for example Apple. Apple do protect their user&#39;s privacy, but at what cost? The other problem is those big tech companies lobby hard to keep their scummy pratices. I could see a &quot;US gov&#39;t vs. Microsoft&quot; lawsuit again, but they would be not be put in jail. Google on the other hand, has a parent company, Alphabet Inc. They&#39;re the second largest internet company in the world and Google by itself is the largest and widely used search engine. But the things are looking bright, like the time FCC sees Meta&#39;s strange behavior, and more stuff.</p>
+
+
+  <h4 id="web3-and-crypto">Web3 and crypto</h4>
+
+
+  <p>Web3 was coined by the co founder of Ethereum, it is supposed to be a decentralized online ecosystem with the same tech as crypto and NFTs. Now the problem was this, they&#39;re going to restrict freedom in the current Web.</p>
+
+
+  <p>The problem was into enviromental suistainability, the problems with the crypto community itself and artificial scarity, among others.</p>
+
+
+  <p>Now we delve into a topic that is a buzzword since 2021: non fungible tokens. Non fungible tokens or NFTs in layman&#39;s terms was an unique photo of something (for example, apes), and trying to sell their digital signature. It&#39;s more like buying the deed for a land, not the land itself. The main problems of NFTs are the sheer enviromental impact. Mining crypto requires a lot of computential power, since mining crypto was mainly done into a graphics card. Mining crypto in general produces a lot of heat and it is a waste of electricity, some even bought power plants for mining crypto. The enviromental im,pact of NFTs and crypto in general is pretty massive.</p>
+
+
+  <p>The worser form of NFTs were NFT games. I must admit, people in my family does play them, but I can&#39;t do something to change their minds. NFT games are popular, due to the success of Axie Infinity months ago. Axie Infinity is a game where you strategically place cards, so your Axies can deal damage to the enemies. But the application process is a convoluted by itself, first you must get a &quot;scholarship&quot;, wait for it to be approved, then set up your Ronin Wallet and Axie Infity account, with your starter Axies, after that download the game from the official website, then play. Initial hype was massive, it was featured in a local TV show called &quot;Kapuso Mo, Jessica Soho&quot;. The initial price of SLP back then was staggering high, but nowadays, it&#39;s on rock bottom. That points to the next problem about NFTs.</p>
+
+
+  <p>My next point about NFTs is the early adopters and whales (note that keyword), since those people is the high priority in crypto projects. Those people has higher chances of being rich. It&#39;s like a Ponzi scheme in a way, where the top (early adopters abd whales) getting the most money out of crypto while people in the bottom will get no money to becoming almost bankrupt. It&#39;s like the economic ladder, and you wouldn't get into the top.</p>
+
+
+  <p>The other thing about crypto and NFTs in particular, is creating artificial scaricity. Artificial scaricity is the act of creating scaricity out of an infinite resource. Since a normal jpeg file can be downloaded, copied, and reuploaded, the crypto guys made some artificial scaricity by the &quot;proof of work&quot; concept, which in layman&#39;s term, just the digital signature of the original work. This line of random letters is important but there&#39;s a lot of exploits on that concept. The one thing NFT bros hate is screenshotting NFTs. This would make the image essentially worthless.</p>
+
+
+  <p>There&#39;s many projects those are attacking crypto and Web3. One of them is Extremely Fungible Tokens, which is made by the omotone guy and there&#39;s Yesterweb, which I&#39;ll talk about in a bit.</p>
+
+
+  <p>NFTs and Web3 was essentially making web private, like Nestle tries to privatize water, I mean web is more just a fad nowadays, as this is now essential in this pandemic situation, like for example, learning or work from home. This whole thing is the main fundemental of the metaverse, which is straight out 1984 itself because you will never know what happen to your data.</p>
+
+
+  <h4 id="yesterweb-community">Yesterweb community</h4>
+  
+  <p>The <a href="https://yesterweb.org">Yesterweb</a> community was comprised of average people who uses internet and make actually cool stuff than corporate shit. These guys believes the internet is community driven, That&#39;s what the internet is all about. creativity. Most websites by the 90s are full of crazy things like GIF animations and wacky buttons. The community on Discord is fun, the discussions are good enough and the community itself is pretty good. You can also make goo sites if you know some basic HTML and CSS! You might learn some ideas on your own website! If you want to join this community, check out their website!</p>
+
+  <p>They have a links directory, a radio, a zine and many, many interesting stuff! It is the community that you should join if  you want the web to still be free!</p>
+  
+  <p>That&#39;s all that I can talk about today, I might update my website and stuff but see you then! </p>]]>
+     </content:encoded>
+  </item>
+  <item>
+   <title>First week of Face to Face, and my thoughts</title>
+   <link>https://alexisgaming95.neocities.org/f2f.htm</link>
+   <guid>https://alexisgaming95.neocities.org/f2f.htm</guid>
+   <pubDate>Sun, 28 Aug 2022 17:52:56 +0800</pubDate>
+    <media:thumbnail url="https://alexisgaming95.neocities.org/images/logo.png" />
+   <description>
+   <![CDATA[After 2 years, face to face classes return. But what does Alexis think?]]>
+   </description>
+   <author>lucas0021a@outlook.com (Alexis Jhon Gaspar)</author>
+   <content:encoded><![CDATA[	<p>Finally, after the past 2 years, face to face classes are now back, due to the amount of people being vaccinated against COVID and the eventual reopening.</p>
+
+  <p>Now, I'm Grade 8 and here's what really happened during the first week of classes.</p>
+
+
+
+  <h4 id="monday">Monday</h4>
+
+  <p>August 22, a.k.a the time I socialize with people again. (Man this is a very, very long time.) After a mishap of me almost falling to a river (luckily, I'm fine, with wounds), it's a nice day, we did an orientation, and elected our classmates, and also know them better. We also did a body map, but honestly, it's a pretty good day for me. The day continues like a normal school day but yeah, it's a fine day.</p>
+
+
+
+  <h4 id="tuesday">Tuesday</h4>
+
+
+  <p>Heavy rains because of a typhoon really hits hard. The day startted fine as well, with us taking pre-tests in various subjects. We take an another activity about mental and social health, and the MAPEH class is really fun, and we came home by noon since it was announced that there wouldn't be classes later on the day and in the following day. Me and my neighbor got wet because we thought our service would be on the front gate but we later know that it would go the back gate. The day ends pretty roughly.</p>
+
+
+
+  <h4 id="thursday">Thursday</h4>
+
+  <p>After a day of rain, I showed up in class again, and this time, we showed up our body maps. It was fun, especially with our classmate showing her body map and laughing out of shyness, and we have a good time, with pre-tests for the other subjects. It goes along pretty roughly, especially math, since what the heck is a x+y? The cases of kidnapping rises, and I am pretty, pretty worried about my wellbeing, so I waited to my service to arrive.</p>
+
+
+
+  <h4 id="friday">Friday</h4>
+
+  <p>The last day of the week was pretty nice, with me being good at recessitations, and the news about a fight in Walter Mart (yes, the school was in a front of a mall), quickly being spread, which is unfortunate. The day was full of some lessons, with us going home at 4pm, since our Journalism class was canceled due to scheduling and room space reasons. But rain unexpectly came, with flooding almost reaching our classroom. It was a time of me socializing with my classmates, it's a really fun moment in the classroom.</p>
+
+  <p>And that's how the first week of face to face classes felt like to me. It was really refreshing, since we have modular learning for like the past 2 years. It's a fun time socializing with people again, instead of my little sister again and again. It was great seeing our country recovering from a pandemic, even with the imminent danger of Monkeypox. It was a real good time.</p>
+
+  <p>It's been a while after I wrote blog posts in my blog again. It was a long while, and I think It's the time I make one. The past months is pretty quiet, but I tried stuff like RISC OS and the ammount of GNU/Linux distributions and Unix based ones like FreeBSD. I hope this fills a gap, and yeah, I hope you're fine. See ya!</p>]]>
+     </content:encoded>
+  </item>
+<item>
+   <title>Introducing: AGR Classic - The Overhaul! (AGRCv2)</title>
+   <link>https://alexisgaming95.neocities.org/overhaul.htm</link>
+   <guid>https://alexisgaming95.neocities.org/overhaul.htm</guid>
+   <pubDate>Fri, 04 Nov 2022 20:57:32 +0800</pubDate>
+    <media:thumbnail url="https://alexisgaming95.neocities.org/images/logo.png" />
+   <description>
+   <![CDATA[I overhauled my website! Hopefully for the better!]]>
+   </description>
+   <author>lucas0021a@outlook.com (Alexis Jhon Gaspar)</author>
+   <content:encoded><![CDATA[	<p>It's been a while, but I finally overhauled my site, hopefully for the better! I wrote this blog post as it didn't seem to fit KibiByte's 200px div element, and it's basically dead for now, so here's what I did for my site!</p>
+					
+  <h3>Activity Centers: Revitalized</h3>
+					
+  <p>As you've noticed, I overhauled my website's homepage for a few weeks now. I am actually thinking about the new homepage layout for months actually, the first version of the homepage <b>actually</b> used the original HTML file with modifications due to, one, it used outdated and/or nonexistent specifications, and the second one is the one you've been seeing now. If you want to see the first version, you can look up on the Wayback Machine, or via GitHub or BitBucket until I backed up my site again.</p>
+
+  <h3>Goodbye seperate mobile version, hello responsive layout!</h3>
+					
+  <p>This is one of the things I was thinking about adding until like in the past 4 days, as it's officially here, a responsive layout, which sadly breaks browsers (which breaks my original intentions) but after using sadgrl's layout builder, recreating my layout manually, and doing stuff like making a pure CSS collapsible list that I found from Google (actually DigitalOcean), but who cares, less work tho. I was thinking of putting the old homepage sometime soon.</p>
+					
+  <h3>Dark mode is finally here!</h3>
+					
+  <p>One of the most requested things on my site was add a dark mode, and now you can see my site in dark mode! Please note that I used media queries to do it, so set your whole browser to light mode to see it on the old color scheme. Dark mode is just basically the website but inverted, which surprisingly worked and looked good for me, also I'm still squashing bugs related to Dark Reader. That add-on will break the border's color for the most part and the *totally JS* commentbox, but I'm a maniac so, whatever.</p>
+					
+  <h3>Some deprecation here and there, and general reception</h3>
+					
+  <p>Since the website is overhauled, most things would be deprecated until I put it again, such as the guestbook, the wall of infinite buttons, and so much more. I might even put KibiByte Updates back in the right sidebar, so no hope is lost. </p>
+					
+  <p>As for the general reception? They generally liked it, but I want <b>YOUR</b> own opinion, so that's why there's a box at the top telling you to tell me a feedback in the Freedom Wall. I want you, I'm checking the feed once in a while, so it might take some time.</p>
+					
+  <h3>The future?</h3>
+					
+  <p>Well, I'm most likely to stick with it for years, I might change the CSS stylesheet but it's likely more minimal, unless some browser breaks support for some element. I'm also wanting to keep the vibe of being looking like pages in the late 90s, but I am just a regular teenager with a life to go on, but it's unlikely that I might change the vibe. I'm still looking forward to the future of this site, and Neocities as a whole, since I and more people who want to be more indie, relieving the GeoCities era, or both use this website. I might host it here forever, unless Neocities shut down which I might migrate it to something like a tilde community or I decided to host it on my own. Still, the future is looking bright for the website, as we're approaching the end of 2022.</p>
+					
+  <h3>Conclusion</h3>
+					
+  <p>I am working on this continuously for days, with one day not doing at all because of a recent typhoon. Still, I'm asking for your own feedback to the overhaul since I am totally unsure if I should keep it or not. Be serious about your feedbacks, and also I hope you are having a nice day. See ya!</p>]]>
+     </content:encoded>
+  </item>
+</channel>
+</rss>

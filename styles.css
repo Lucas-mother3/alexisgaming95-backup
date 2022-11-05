@@ -1,0 +1,1475 @@
+/* *New* Alexis Gaming Reviews Classic Stylesheet Wii 
+
+Updated 2022-11-01
+*/
+:root {
+	/* Background */
+    --body-bg-image: url("_themes/pstmdrn/postextb.jpg");
+	/* Firefox scrollbars (For Firefox, Librewolf, etc.) */
+	scrollbar-color: #ffc #bcbcbc;
+	scrollbar-width: auto;
+	/* Internet Explorer scrollbars (From 5.5 till 11) */
+	scrollbar-face-color: #ffc;
+	scrollbar-arrow-color: #000;
+	scrollbar-track-color: #bcbcbc;
+	scrollbar-shadow-color: #cc7;
+	scrollbar-highlight-color: #fff;
+	scrollbar-3dlight-color: #ffc;
+	scrollbar-darkshadow-color: #aa5;
+}
+
+body {
+	/* Cursors */
+	cursor: url("cursors/arrow.png"), default;
+	cursor: url("cursors/arrow.png"), auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ffc;
+	background-size: 65px;
+    color: #009;
+    background-image: var(--body-bg-image);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Layout styling 
+The #container element is the main layout*/
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* the area below is for all links on your page
+    EXCEPT for the navigation */
+#container a:link {
+    color: #360;
+	font-family: Arial, Helvetica;
+}
+#container a:visited {
+    color: #696;
+}
+#container a:active {
+    color: #f93;
+}
+#container a:hover {
+	cursor: url("cursors/hand.png"), pointer;
+}
+
+/*Header styling!*/
+#header {
+    width: 100%;
+    background-color: #ffc;
+    height: auto;
+	float: center;
+    background-image: url("_themes/pstmdrn/postextb.jpg");
+    background-size: 10%;
+	display: flex;
+	justify-content: center;
+	border: 1px solid #009;
+}
+
+#flex {
+    display: flex;
+}
+
+/*The Homepage layout styling! */
+#icon {
+		width: 32px;
+		height: 32px;
+	}
+#Item {
+		height: 75px;
+	}
+#Title {
+		position: relative;
+		bottom: 56px; 
+		left: 40px;
+	}
+#Caption {
+		position: relative; 
+		bottom: 75px; 
+		left: 50px;
+		width: 90%;
+	}
+/* this colors BOTH sidebars
+    if you want to style them separately,
+    create styles for #leftSidebar and #rightSidebar */
+aside {
+    background-image: url("_themes/pstmdrn/postextb.jpg");
+    width: 200px;
+    padding: 20px;
+    font-size: smaller;
+	border: 1px #009;
+	border-style: none solid solid none;
+}
+
+
+/* this is the color of the main content area,
+    between the sidebars! */
+main {
+	background-color: #ffc;
+    background-image: url("_themes/pstmdrn/postextb.jpg");
+    flex: 1;
+    padding: 20px;
+    order: 2;
+	border: 1px #009;
+	border-style: none solid solid solid;
+}
+
+/* what's this "order" stuff about??
+    allow me to explain!
+    if you're using both sidebars, the "order" value
+    tells the CSS the order in which to display them.
+    left sidebar is 1, content is 2, and right sidebar is 3! */
+
+*/ #leftSidebar {
+    order: 1;
+}
+
+#rightSidebar {
+    order: 3;
+}
+
+footer {
+    color: #009;
+	background-color: #ffc;
+	background-image: url("_themes/pstmdrn/postextb.jpg");
+    /* background color for footer */
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+	border: 1px #009;
+	border-style: none solid solid solid;
+    /* this centers the footer text */
+}
+
+.mstheme-topbar-font {
+	font-family: Arial, Helvetica;
+	color: #000;
+}
+
+h1 {
+	color: #006;
+	font-family: Arial, Helvetica;
+	font-size: 25px;
+}
+h2 {
+	color: #669; 
+	font-family: Arial, Helvetica;
+}
+h3 {
+	color: #993;
+	font-family: Arial, Helvetica;
+}
+h4 {
+	color: #006;
+	font-family: Arial, Helvetica;
+}
+h5 {
+	color: #669;
+	font-family: Arial, Helvetica;
+}
+/* Ah! You found me again! */
+h6 {
+	color: #993;
+	font-family: Arial, Helvetica;
+}
+
+strong, p {
+    color: #009;
+}
+strong:hover, p:hover {
+	cursor: url("cursors/beam.png"), text;
+}
+ul {
+  list-style-image: url('_themes/pstmdrn/posbul1l.gif');
+}
+
+#Wallpaper {
+	width: 55%;
+	height: auto;
+}
+
+#seperator {
+	width: 50%;
+	height: auto;
+}
+
+#Dembed {
+	width: 60%;
+	height: 340px;
+}
+
+/* CSS for extras */
+
+#topBar {
+	color: #009;
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    background-color: #ffc;
+	background-image: url("_themes/pstmdrn/postextb.jpg");
+	border: 1px #009;
+	border-style: solid solid none solid;
+}
+/*Homepage collapisble litst element" */
+.wrap-collabsible {
+	margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+.lbl-toggle {
+	display: block;
+	font-weight: bold;
+	font-size: 1rem;
+	text-align: left;
+	padding: 10px;
+	color: #009;
+	background: #ffc;
+	border: 1px solid #009;
+	cursor: url("cursors/hand.png"), pointer;
+}
+
+.lbl-toggle::before {
+	content: ' ';
+	display: inline-block;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid currentColor;
+	vertical-align: middle;
+	margin-right: .7rem;
+	transform: translateY(-2px);
+}
+
+.toggle:checked + .lbl-toggle::before {
+	transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+	max-height: 100vh;
+}
+
+.collapsible-content .content-inner {
+	background: #dda;
+	border: 1px #009;
+	font-size: 1rem;
+	border-style: none solid solid solid;
+	padding: 10px 13px;
+}
+
+.wrap-collabsible1 {
+	margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+.lbl-toggle1 {
+	display: block;
+	font-weight: bold;
+	font-size: 1rem;
+	text-align: left;
+	padding: 10px;
+	color: #009;
+	background: #ffc;
+	border: 1px solid #009;
+	cursor: url("cursors/hand.png"), pointer;
+}
+
+.lbl-toggle1::before {
+	content: ' ';
+	display: inline-block;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid currentColor;
+	vertical-align: middle;
+	margin-right: .7rem;
+	transform: translateY(-2px);
+}
+
+.toggle1:checked + .lbl-toggle1::before {
+	transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content1 {
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.toggle1:checked + .lbl-toggle1 + .collapsible-content1 {
+	max-height: 119vh;
+}
+
+.collapsible-content1 .content-inner1 {
+	background: #dda;
+	border: 1px #009;
+	font-size: 1rem;
+	border-style: none solid solid solid;
+	padding: 10px 13px;
+}
+.wrap-collabsible2 {
+	margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+.lbl-toggle2 {
+	display: block;
+	font-weight: bold;
+	font-size: 1rem;
+	text-align: left;
+	padding: 10px;
+	color: #009;
+	background: #ffc;
+	border: 1px solid #009;
+	cursor: url("cursors/hand.png"), pointer;
+}
+
+.lbl-toggle2::before {
+	content: ' ';
+	display: inline-block;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid currentColor;
+	vertical-align: middle;
+	margin-right: .7rem;
+	transform: translateY(-2px);
+}
+
+.toggle2:checked + .lbl-toggle2::before {
+	transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content2 {
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.toggle2:checked + .lbl-toggle2 + .collapsible-content2 {
+	max-height: 119vh;
+}
+
+.collapsible-content2 .content-inner2 {
+	background: #dda;
+	border: 1px #009;
+	font-size: 1rem;
+	border-style: none solid solid solid;
+	padding: 10px 13px;
+}
+/*Browser landing page styling */
+#search_button_homepage {
+	font: 15px Arial, sans-serif; 
+	width: 28px; 
+	height: 28px;
+	border: 1px solid #009;
+	background-image: url('https://alexisgaming95.neocities.org/_themes/pstmdrn/postextb.jpg');
+	background-attachment: local;
+	background-color: #ffc;
+	color: #009;
+}
+#search_form_input_homepage {
+	font: 15px Arial, sans-serif; 
+	width: 100%; 
+	height: 28px;  
+	border: 1px solid #009;
+	background-image: url('https://alexisgaming95.neocities.org/_themes/pstmdrn/postextb.jpg');
+	background-attachment: local;
+	background-color: #ffc; 
+	color: #009;
+}
+#Row {
+	border: 0px none black;
+	width: 100%; 
+}
+#Speedlink {
+	text-decoration: none; 
+}
+#Stuff1, #Stuff2, #Stuff3 {
+	display: inline-block;
+	width: 96px; 
+	height: 96px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #009;
+	color: #009;
+	margin-top: -1px;
+	margin-left: -1px;
+}
+#ListItems2, #ListItems3, #ListItems4 {
+	width: 32px;
+	height: 32px;
+	margin-top: 10px;
+}
+@keyframes animate{
+	0%{ 
+		cursor: url("/cursors/busy1.png"), wait;
+	}
+	25%{ 
+		cursor: url("/cursors/busy2.png"), wait;
+	}
+	50%{ 
+		cursor: url("/cursors/busy3.png"), wait;
+	}
+	75%{ 
+		cursor: url("/cursors/busy4.png"), wait;
+	}
+	100%{ 
+		cursor: url("/cursors/busy1.png"), wait;
+	}
+}
+@keyframes animate{
+	0%{ 
+		cursor: url("/cursors/background1.png"), progress;
+	}
+  25%{ 
+		cursor: url("/cursors/background2.png"), progress;
+  }
+  50%{ 
+    cursor: url("/cursors/background3.png"), progress;
+  }
+  75%{ 
+    cursor: url("/cursors/background4.png"), progress;
+  }
+  100%{ 
+    cursor: url("/cursors/background1.png"), progress;
+  }
+}
+/* Webkit scrollbars (For Edge Chromium Based, Chrome, Safari, etc) */
+/* Source: https://github.com/ticky/classic-scrollbars */
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-button:end {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #dedede;
+  box-shadow: 1px 1px 0 #ffffff inset,
+    -1px -1px 0 #bcbcbc inset;
+}
+::-webkit-scrollbar-button:end:vertical {
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+::-webkit-scrollbar-button:end:vertical:decrement {
+  background: 
+    linear-gradient(
+      transparent 75%, black 75%
+    )
+    center center / 8px 4px
+    no-repeat,
+    linear-gradient(
+      transparent 50%, black 50%
+    )
+    center center / 6px 4px
+    no-repeat,
+    linear-gradient(
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      black 50%, black 50%
+    )
+    center center / 2px 4px
+    no-repeat,
+    #dedede;
+}
+::-webkit-scrollbar-button:end:vertical:increment {
+  background: 
+    linear-gradient(
+      to top,
+      transparent 75%, black 75%
+    )
+    center center / 8px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 50%, black 50%
+    )
+    center center / 6px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      black 50%, black 50%
+    )
+    center center / 2px 4px
+    no-repeat,
+    #dedede;
+  height: 15px;
+  border-bottom: none;
+}
+::-webkit-scrollbar-button:end:horizontal {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+::-webkit-scrollbar-button:end:horizontal:decrement {
+  background: 
+    linear-gradient(
+      to right,
+      transparent 75%, black 75%
+    )
+    center center / 4px 8px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 50%, black 50%
+    )
+    center center / 4px 6px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to right,
+      black 50%, black 50%
+    )
+    center center / 4px 2px
+    no-repeat,
+    #dedede;
+}
+::-webkit-scrollbar-button:end:horizontal:increment {
+  background: 
+    linear-gradient(
+      to left,
+      transparent 75%, black 75%
+    )
+    center center / 4px 8px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 50%, black 50%
+    )
+    center center / 4px 6px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to left,
+      black 50%, black 50%
+    )
+    center center / 4px 2px
+    no-repeat,
+    #dedede;
+  width: 15px;
+  border-right: none;
+}
+::-webkit-scrollbar-track {
+  background-color: #aaaaab;
+  border: 1px solid #000000;
+}
+::-webkit-scrollbar-track:vertical {
+  box-shadow: 1px 1px 0 #787877 inset,
+    -1px 2px 0 #cdcccd inset,
+    2px 0 0 #888889 inset,
+    -2px 0 0 #bcbcbc inset;
+}
+::-webkit-scrollbar-track:horizontal {
+  box-shadow: 1px 1px 0 #787877 inset,
+    2px -1px 0 #cdcccd inset,
+    0 2px 0 #888889 inset,
+    0 -2px 0 #bcbcbc inset;
+}
+::-webkit-scrollbar-thumb {
+  box-shadow: 1px 1px 0px #fff inset,
+    -1px -1px 0px #cc7 inset;
+  width: 14px;
+  border: 1px solid #000000;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background: 
+    linear-gradient(
+      transparent 12.5%, #cc7 12.5%,
+      #cc7 25%, transparent 25%,
+      transparent 37.5%, #cc7 37.5%,
+      #cc7 50%, transparent 50%,
+      transparent 62.5%, #cc7 62.5%,
+      #cc7 75%, transparent 75%,
+      transparent 87.5%, #cc7 87.5%
+    )
+    center center / 7px 8px
+    no-repeat,
+    linear-gradient(
+      #ee9 12.5%, transparent 12.5%,
+      transparent 25%, #ee9 25%,
+      #ee9 37.5%, transparent 37.5%,
+      transparent 50%, #ee9 50%,
+      #ee9 62.5%, transparent 62.5%,
+      transparent 75%, #ee9 75%,
+      #ee9 87.5%, transparent 87.5%
+    )
+    49% center / 7px 8px
+    no-repeat,
+    #ffc;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: 
+    linear-gradient(
+      to right,
+      transparent 12.5%, #cc7 12.5%,
+      #cc7 25%, transparent 25%,
+      transparent 37.5%, #cc7 37.5%,
+      #cc7 50%, transparent 50%,
+      transparent 62.5%, #cc7 62.5%,
+      #cc7 75%, transparent 75%,
+      transparent 87.5%, #cc7 87.5%
+    )
+    center center / 8px 7px
+    no-repeat,
+    linear-gradient(
+      to right,
+      #ee9 12.5%, transparent 12.5%,
+      transparent 25%, #ee9 25%,
+      #ee9 37.5%, transparent 37.5%,
+      transparent 50%, #ee9 50%,
+      #ee9 62.5%, transparent 62.5%,
+      transparent 75%, #ee9 75%,
+      #ee9 87.5%, transparent 87.5%
+    )
+    center 49% / 8px 7px
+    no-repeat,
+    #ffc;
+}
+::-webkit-scrollbar-corner {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  box-shadow: 1px 1px 0 #ffffff inset;
+  background: #cdcccd;
+ }
+@media (prefers-color-scheme: dark) {
+:root {
+	/* Background */
+    --body-bg-image: url("_themes/pstmdrn/postextd.jpg");
+	/* Firefox scrollbars (For Firefox, Librewolf, etc.) */
+	scrollbar-color: #003 #bcbcbc;
+	scrollbar-width: auto;
+	/* Internet Explorer scrollbars (From 5.5 till 11) */
+	scrollbar-face-color: #003;
+	scrollbar-arrow-color: #000;
+	scrollbar-track-color: #bcbcbc;
+	scrollbar-shadow-color: #338;
+	scrollbar-highlight-color: #fff;
+	scrollbar-3dlight-color: #003;
+	scrollbar-darkshadow-color: #55a;
+
+}
+
+body {
+    background-color: #003;
+    background-size: 65px;
+    color: #ff6;
+    background-image: var(--body-bg-image);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Layout styling 
+The #container element is the main layout*/
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* the area below is for all links on your page
+    EXCEPT for the navigation */
+#container a:link {
+    color: #c9f;
+	font-family: Arial, Helvetica;
+}
+#container a:visited {
+    color: #969;
+}
+#container a:active {
+    color: #06c;
+}
+
+/*Header styling!*/
+#header {
+    background-color: #003;
+    background-image: url("_themes/pstmdrn/postextd.jpg");
+    background-size: 10%;
+	border: 1px solid #ff6;
+}
+/* this colors BOTH sidebars
+    if you want to style them separately,
+    create styles for #leftSidebar and #rightSidebar */
+aside {
+    background-image: url("_themes/pstmdrn/postextd.jpg");
+	border: 1px #ff6;
+	border-style: none solid solid none;
+}
+
+#Listitems1, #ListItems3 {
+	filter: invert(100%);
+}
+
+#seperator {
+	filter: invert(100%) brightness(2.5);
+	transform: rotate(180deg);
+}
+
+/* this is the color of the main content area,
+    between the sidebars! */
+main {
+	background-color: #003;
+    background-image: url("_themes/pstmdrn/postextd.jpg");
+	border: 1px #ff6;
+	border-style: none solid solid solid;
+}
+
+footer {
+    color: #ff6;
+	background-color: #003;
+	background-image: url("_themes/pstmdrn/postextd.jpg");
+	border: 1px #ff6;
+	border-style: none solid solid solid;
+    /* this centers the footer text */
+}
+
+.mstheme-topbar-font {
+	font-family: Arial, Helvetica;
+	color: #000;
+}
+
+h1 {
+	color: #ff9;
+	font-family: Arial, Helvetica;
+	font-size: 25px;
+}
+h2 {
+	color: #996; 
+	font-family: Arial, Helvetica;
+}
+h3 {
+	color: #66c;
+	font-family: Arial, Helvetica;
+}
+h4 {
+	color: #ff9;
+	font-family: Arial, Helvetica;
+}
+h5 {
+	color: #996;
+	font-family: Arial, Helvetica;
+}
+/* Ah! You found me again! */
+h6 {
+	color: #66c;
+	font-family: Arial, Helvetica;
+}
+
+strong, p {
+    color: #ff6;
+}
+
+ul {
+  list-style-image: url('_themes/pstmdrn/posbul1d.gif');
+}
+
+#topBar {
+	color: #ff6;
+    background-color: #003;
+	background-image: url("_themes/pstmdrn/postextd.jpg");
+	border: 1px #ff6;
+	border-style: solid solid none solid;
+}
+
+/*Browser landing page styling */
+#search_button_homepage {
+	font: 15px Arial, sans-serif; 
+	width: 28px; 
+	height: 28px;
+	border: 1px solid #ff6;
+	background-image: url('_themes/pstmdrn/postextd.jpg');
+	background-attachment: local;
+	background-color: #003;
+	color: #ff6;
+}
+#search_form_input_homepage {
+	font: 15px Arial, sans-serif; 
+	width: 90%; 
+	height: 28px;  
+	border: 1px solid #ff6;
+	background-image: url('_themes/pstmdrn/postextd.jpg');
+	background-attachment: local;
+	background-color: #003; 
+	color: #ff6;
+}
+#Row {
+	width: 100%; 
+	border: 0px none black;
+}
+#Speedlink {
+	text-decoration: none; 
+}
+#Stuff1, #Stuff2, #Stuff3 {
+	border-color: #ff6;
+	color: #ff6;
+}
+/*Homepage collapisble litst element" */
+
+.wrap-collabsible {
+	margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+.lbl-toggle {
+	display: block;
+	font-weight: bold;
+	font-size: 1rem;
+	text-align: left;
+	padding: 10px;
+	color: #ff6;
+	background: #003;
+	border: 1px solid #ff6;
+	cursor: url("cursors/hand.png"), pointer;
+}
+
+.lbl-toggle::before {
+	content: ' ';
+	display: inline-block;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid currentColor;
+	vertical-align: middle;
+	margin-right: .7rem;
+	transform: translateY(-2px);
+}
+
+.toggle:checked + .lbl-toggle::before {
+	transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+	max-height: 100vh;
+}
+
+.collapsible-content .content-inner {
+	background: #225;
+	border: 1px #ff6;
+	font-size: 1rem;
+	border-style: none solid solid solid;
+	padding: 10px 13px;
+}
+
+.wrap-collabsible1 {
+	margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+.lbl-toggle1 {
+	display: block;
+	font-weight: bold;
+	font-size: 1rem;
+	text-align: left;
+	padding: 10px;
+	color: #ff6;
+	background: #003;
+	border: 1px solid #ff6;
+	cursor: url("cursors/hand.png"), pointer;
+}
+
+.lbl-toggle1::before {
+	content: ' ';
+	display: inline-block;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid currentColor;
+	vertical-align: middle;
+	margin-right: .7rem;
+	transform: translateY(-2px);
+}
+
+.toggle1:checked + .lbl-toggle1::before {
+	transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content1 {
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.toggle1:checked + .lbl-toggle1 + .collapsible-content1 {
+	max-height: 119vh;
+}
+
+.collapsible-content1 .content-inner1 {
+	background: #225;
+	border: 1px #ff6;
+	font-size: 1rem;
+	border-style: none solid solid solid;
+	padding: 10px 13px;
+}
+.wrap-collabsible2 {
+	margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+.lbl-toggle2 {
+	display: block;
+	font-weight: bold;
+	font-size: 1rem;
+	text-align: left;
+	padding: 10px;
+	color: #ff6;
+	background: #003;
+	border: 1px solid #ff6;
+	cursor: url("cursors/hand.png"), pointer;
+}
+
+.lbl-toggle2::before {
+	content: ' ';
+	display: inline-block;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid currentColor;
+	vertical-align: middle;
+	margin-right: .7rem;
+	transform: translateY(-2px);
+}
+
+.toggle2:checked + .lbl-toggle2::before {
+	transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content2 {
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.toggle2:checked + .lbl-toggle2 + .collapsible-content2 {
+	max-height: 119vh;
+}
+
+.collapsible-content2 .content-inner2 {
+	background: #225;
+	border: 1px #ff6;
+	font-size: 1rem;
+	border-style: none solid solid solid;
+	padding: 10px 13px;
+}
+/* Webkit scrollbars (For Edge Chromium Based, Chrome, Safari, etc) */
+/* Source: https://github.com/ticky/classic-scrollbars */
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-button:end {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #dedede;
+  box-shadow: 1px 1px 0 #ffffff inset,
+    -1px -1px 0 #bcbcbc inset;
+}
+::-webkit-scrollbar-button:end:vertical {
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+::-webkit-scrollbar-button:end:vertical:decrement {
+  background: 
+    linear-gradient(
+      transparent 75%, black 75%
+    )
+    center center / 8px 4px
+    no-repeat,
+    linear-gradient(
+      transparent 50%, black 50%
+    )
+    center center / 6px 4px
+    no-repeat,
+    linear-gradient(
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      black 50%, black 50%
+    )
+    center center / 2px 4px
+    no-repeat,
+    #dedede;
+}
+::-webkit-scrollbar-button:end:vertical:increment {
+  background: 
+    linear-gradient(
+      to top,
+      transparent 75%, black 75%
+    )
+    center center / 8px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 50%, black 50%
+    )
+    center center / 6px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to top,
+      black 50%, black 50%
+    )
+    center center / 2px 4px
+    no-repeat,
+    #dedede;
+  height: 15px;
+  border-bottom: none;
+}
+::-webkit-scrollbar-button:end:horizontal {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+::-webkit-scrollbar-button:end:horizontal:decrement {
+  background: 
+    linear-gradient(
+      to right,
+      transparent 75%, black 75%
+    )
+    center center / 4px 8px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 50%, black 50%
+    )
+    center center / 4px 6px
+    no-repeat,
+    linear-gradient(
+      to right,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to right,
+      black 50%, black 50%
+    )
+    center center / 4px 2px
+    no-repeat,
+    #dedede;
+}
+::-webkit-scrollbar-button:end:horizontal:increment {
+  background: 
+    linear-gradient(
+      to left,
+      transparent 75%, black 75%
+    )
+    center center / 4px 8px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 50%, black 50%
+    )
+    center center / 4px 6px
+    no-repeat,
+    linear-gradient(
+      to left,
+      transparent 25%, black 25%
+    )
+    center center / 4px 4px
+    no-repeat,
+    linear-gradient(
+      to left,
+      black 50%, black 50%
+    )
+    center center / 4px 2px
+    no-repeat,
+    #dedede;
+  width: 15px;
+  border-right: none;
+}
+::-webkit-scrollbar-track {
+  background-color: #aaaaab;
+  border: 1px solid #000000;
+}
+::-webkit-scrollbar-track:vertical {
+  box-shadow: 1px 1px 0 #787877 inset,
+    -1px 2px 0 #cdcccd inset,
+    2px 0 0 #888889 inset,
+    -2px 0 0 #bcbcbc inset;
+}
+::-webkit-scrollbar-track:horizontal {
+  box-shadow: 1px 1px 0 #787877 inset,
+    2px -1px 0 #cdcccd inset,
+    0 2px 0 #888889 inset,
+    0 -2px 0 #bcbcbc inset;
+}
+::-webkit-scrollbar-thumb {
+  box-shadow: 1px 1px 0px #fff inset,
+    -1px -1px 0px #338 inset;
+  width: 14px;
+  border: 1px solid #000000;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background: 
+    linear-gradient(
+      transparent 12.5%, #338 12.5%,
+      #338 25%, transparent 25%,
+      transparent 37.5%, #338 37.5%,
+      #338 50%, transparent 50%,
+      transparent 62.5%, #338 62.5%,
+      #338 75%, transparent 75%,
+      transparent 87.5%, #338 87.5%
+    )
+    center center / 7px 8px
+    no-repeat,
+    linear-gradient(
+      #116 12.5%, transparent 12.5%,
+      transparent 25%, #116 25%,
+      #116 37.5%, transparent 37.5%,
+      transparent 50%, #116 50%,
+      #116 62.5%, transparent 62.5%,
+      transparent 75%, #116 75%,
+      #116 87.5%, transparent 87.5%
+    )
+    49% center / 7px 8px
+    no-repeat,
+    #003;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: 
+    linear-gradient(
+      to right,
+      transparent 12.5%, #338 12.5%,
+      #338 25%, transparent 25%,
+      transparent 37.5%, #338 37.5%,
+      #338 50%, transparent 50%,
+      transparent 62.5%, #338 62.5%,
+      #338 75%, transparent 75%,
+      transparent 87.5%, #338 87.5%
+    )
+    center center / 8px 7px
+    no-repeat,
+    linear-gradient(
+      to right,
+      #116 12.5%, transparent 12.5%,
+      transparent 25%, #116 25%,
+      #116 37.5%, transparent 37.5%,
+      transparent 50%, #116 50%,
+      #116 62.5%, transparent 62.5%,
+      transparent 75%, #116 75%,
+      #116 87.5%, transparent 87.5%
+    )
+    center 49% / 8px 7px
+    no-repeat,
+    #003;
+}
+::-webkit-scrollbar-corner {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  box-shadow: 1px 1px 0 #ffffff inset;
+  background: #cdcccd;
+ }
+}
+/* BELOW THIS POINT IS MEDIA QUERY */
+
+/* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+@media only screen and (max-width: 800px) {
+    #flex {
+        flex-wrap: wrap;
+    }
+
+    aside {
+		border-style: none solid solid solid;
+        width: 100%;
+    }
+	#header-image {
+		width: 99%;
+		height: auto;
+	}
+
+	#Item {
+		width: 85%;
+		height: 80px;
+	}
+	
+	#icon {
+		width: 30px;
+		height: 30px;
+	}
+	
+	#Title {
+		position: relative;
+		bottom: 50px; 
+		left: 35px;
+		width: 100%;
+	}
+	
+	#Caption {
+		position: relative; 
+		bottom: 65px; 
+		left: 50px;
+		width: 100%;
+	}
+    /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+    main {
+        order: 3;
+    }
+
+    #leftSidebar {
+        order: 2;
+    }
+
+    #rightSidebar {
+        order: 1;
+    }
+}
+@media only screen and (max-width: 366px) {
+	#search_button_homepage {
+			font: 12px Arial, sans-serif; 
+			width: 24px; 
+			height: 24px;
+	}
+	#search_form_input_homepage {
+			font: 12px Arial, sans-serif; 
+			width: 85%; 
+			height: 24px;
+	}
+}
+@media only screen and (max-width: 234px) {
+	main, footer {
+		font-size: smaller;
+	}
+	
+	aside, #Listlinks {
+		font-size: 10px;
+	}
+	
+	#Listitems, #Listitems1, #ListItems2, #ListItems3, #ListItems4 {
+		width: 16px;
+		height: 16px;
+	}
+
+	#header-image {
+		height: auto;
+	}
+	
+	#Item {
+		width: 75%;
+		height: 13%;
+		font-size: small;
+	}
+	
+	#icon {
+		width: 26px;
+		height: 26px;
+	}
+	
+	#Title {
+		position: relative;
+		bottom: 50px; 
+		left: 30px;
+		width: 100%;
+	}
+	
+	#Caption {
+		position: relative; 
+		bottom: 60px; 
+		left: 40px;
+		width: 100%;
+	}
+	#search_button_homepage {
+			font: 12px Arial, sans-serif; 
+			width: 24px; 
+			height: 24px;
+	}
+	#search_form_input_homepage {
+			font: 12px Arial, sans-serif; 
+			width: 85%; 
+			height: 24px;
+	}
+	#Stuff1, #Stuff2, #Stuff3 {
+			width: 65px;
+			height: 65px;
+	}
+}
+@media only screen and (max-width: 212px) {
+	#search_button_homepage {
+			font: 9px Arial, sans-serif; 
+			width: 16px; 
+			height: 16px;
+	}
+	#search_form_input_homepage {
+			font: 9px Arial, sans-serif; 
+			height: 16px;
+	}
+	
+	footer {
+		font-size: 11px;
+	}
+	
+}
+@media only screen and (max-width: 144px) {
+	main, footer {
+		font-size: smallest;
+	}
+	
+	aside, #Listlinks{
+		font-size: 10px;
+	}
+	
+	#Listitems, #Listitems1, #ListItems2, #ListItems3, #ListItems4 {
+		width: 16px;
+		height: 16px;
+	}
+	
+	#header-image {
+		height: auto;
+	}
+	
+	#Item {
+		width: 67%;
+		height: 14%;
+		font-size: smaller;
+	}
+	
+	#icon {
+		width: 22px;
+		height: 22px;
+	}
+	
+	#Title {
+		position: relative;
+		bottom: 50px; 
+		left: 27px;
+		width: 100%;
+	}
+	
+	#Caption {
+		position: relative; 
+		bottom: 60px; 
+		left: 35px;
+		width: 100%;
+	}
+	#topBar {
+		width: 100%;
+		padding: 10px;
+		font-size: 9px;
+		background-color: #13092D;
+	}
+	#search_button_homepage {
+			font: 9px Arial, sans-serif; 
+			width: 16px; 
+			height: 16px;
+	}
+	#search_form_input_homepage {
+			font: 9px Arial, sans-serif; 
+			width: 80%; 
+			height: 16px;
+	}
+	#Stuff1, #Stuff2, #Stuff3 {
+			width: 65px;
+			height: 65px;
+	}
+}
+@media only screen and (max-width: 120px) {
+	main, footer {
+		font-size: 10px;
+	}
+	
+	aside, #Listlinks {
+		font-size: 8px;
+	}
+	
+	#Listitems, #Listitems1, #ListItems2, #ListItems3, #ListItems4 {
+		width: 12px;
+		height: 12px;
+	}
+	
+	#header-image {
+		height: auto;
+	}
+
+	#Item {
+		width: 67%;
+		height: 10%;
+		font-size: smallest;
+	}
+	
+	#icon {
+		width: 22px;
+		height: 22px;
+	}
+	
+	#Title {
+		position: relative;
+		bottom: 50px; 
+		left: 27px;
+		width: 100%;
+	}
+	
+	#Caption {
+		position: relative; 
+		bottom: 60px; 
+		left: 35px;
+		width: 100%;
+	}
+	#topBar {
+    width: 100%;
+    padding: 10px;
+    font-size: 8px;
+    background-color: #13092D;
+	}
+	#Stuff1, #Stuff2, #Stuff3 {
+			width: 55px;
+			height: 55px;
+	}
+}
